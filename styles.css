@@ -1,0 +1,134 @@
+body{
+
+    background-color:rgb(22, 20, 20)
+}
+.home{
+    margin: 15px auto 0px auto;
+    width: 70%;
+    padding: 8px;
+    background-color: #13b37d;
+    text-align: center;
+}
+
+.list a{
+    color: rgb(38, 22, 180);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.list a:hover{
+    color:yellow;
+}
+.home img{
+    height:200px;
+    width:200px;
+    text-align:"center";
+}
+.home>h1{
+    color: rgb(221, 133, 17);
+}
+.container{
+    display: inline;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color: white;
+    text-align: left;
+    min-width:100%;
+    display: none;
+}
+.container:hover .content{
+    display: grid;
+}
+.content a{
+    color:rgb(143, 16, 69);
+}
+.content a:hover{
+    color:red;
+}
+.about{
+    margin: 15px auto 0px auto;
+    width: 70%;
+    padding: 8px;
+    background-color: rgb(87, 19, 87);
+ }
+.about img{
+    height: 260px;
+    width: 300px;
+    float: left;
+    padding: 0 10px 0 0;
+}
+.about text{
+    text-align: justify;
+    font-family: Verdana;
+}
+.about h1{
+    color: red;
+    text-align: center;
+}
+.text p{
+    color: white;
+}
+.education{
+    background-color: yellow;
+    margin: 15px auto 0px auto;
+    width: 70%;
+    padding: 8px;
+}
+.education table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.education h1{
+    text-align: center;
+    color: rgb(35, 15, 216);
+}
+.skills{
+    background-color: turquoise;
+    margin: 15px auto 0px auto;
+    width: 70%;
+    padding: 8px;
+}
+.skills > h1{ 
+    text-align: center;
+    color: purple;
+}
+.skills ol{
+    width: 15%;
+    margin: auto;
+}
+.skills ol li{
+    color: rgb(14, 2, 44);
+}
+.project{
+    background-color: rgb(35, 12, 97);
+    margin: 15px auto 0px auto;
+    width: 70%;
+    padding: 8px;
+}
+.project > h1{ 
+    text-align: center;
+    color: rgb(219, 230, 208);
+}
+.project ol{
+    width: 25%;
+    margin: auto;
+}
+.project ol li, a{
+    color: red;
+    text-decoration: none;
+}
+.project ol li a:hover{
+    color: gray;
+}
+div.contact{
+    margin: 15px auto 0px auto;
+    width: 70%;
+    padding: 8px;
+    background-color: rgba(216, 17, 17, 0.5);
+    text-align: center;
+}
